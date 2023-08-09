@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="icon" href="images/img.png" type="image/x-icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="bicycle">Bicycle</span>
+                <span class="item" data-name="bike">Bike</span>
+                <span class="item" data-name="car">Car</span>
+                <span class="item" data-name="mobile">Mobile</span>
+                <span class="item" data-name="house">House</span>
+            </div> 
+        </nav>
+        <div class="gallery">
+            <div class="image" data-name="bicycle"><span><img src="images/bicycle.jpg"></span></div>
+            <div class="image" data-name="mobile"><span><img src="images/mobile-1.jpg"></span></div>
+            <div class="image" data-name="bike"><span><img src="images/bike-1.jpg"></span></div>
+            <div class="image" data-name="car"><span><img src="images/car-1.jpg"></span></div>
+            <div class="image" data-name="bike"><span><img src="images/bike-2.jpg"></span></div>
+            <div class="image" data-name="house"><span><img src="images/house.jpg"></span></div>
+            <div class="image" data-name="mobile"><span><img src="images/mobile2.jpg"></span></div>
+            <div class="image" data-name="car"><span><img src="images/car-2.jpg"></span></div>
+        </div>
+    </div>
+    <div class="preview-box">
+        <div class="details">
+          <span class="title">Image Category: <p></p></span>
+          <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box">
+            <img src="" alt="">
+        </div>
+    </div>
+      <div class="shadow"></div>
+    <script src="script.js"></script>
+</body>
+</html>
